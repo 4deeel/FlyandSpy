@@ -1,10 +1,10 @@
-# 🕹️ Fly and Spy
+# Fly and Spy
 
 Fly and Spy is a cybersecurity project that integrates a clone of the classic game **Flappy Bird** with a covert **keylogger** to demonstrate how malicious software can be embedded within innocent-looking applications. This project was developed as part of an **Introduction to Cybersecurity Lab** and emphasizes technical integration along with ethical considerations.
 
 ---
 
-## 🚀 Project Objectives
+## Project Objectives
 
 - ✅ Develop a functional Flappy Bird clone.
 - 🕵️ Integrate a stealthy keylogger that:
@@ -15,17 +15,17 @@ Fly and Spy is a cybersecurity project that integrates a clone of the classic ga
 
 ---
 
-## 🎮 Game: Flappy Bird Clone
+## Game: Flappy Bird Clone
 
-### 📋 Overview
+### Overview
 The game replicates the Flappy Bird mechanics—players control a bird using the space bar to fly through gaps in pipes.
 
-### 🔧 Key Features
+### Key Features
 - **Dynamic Gameplay:** Gravity-based bird movement.
 - **Customizable Settings:** Game speed, gravity, pipe gaps.
 - **Resizable Screen:** Adjusts to various window sizes.
 
-### 🧱 Code Structure
+### Code Structure
 - **Classes:**
   - `Bird`: Manages movement, collision.
   - `Pipe`: Creates and moves pipes.
@@ -37,18 +37,18 @@ The game replicates the Flappy Bird mechanics—players control a bird using the
 
 ---
 
-## 🛡️ Keylogger Component
+## Keylogger Component
 
-### 🔍 Overview
+### Overview
 Runs stealthily in the background while the game is active, collecting and transmitting user data.
 
-### 📌 Features
+### Features
 - **Keystroke Logging:** Captures all keys (including special keys).
 - **Active App Logging:** Tracks current window titles.
 - **Dropbox Sync:** Periodically uploads log files to Dropbox.
 - **Startup Integration:** Ensures persistence across reboots.
 
-### 🧱 Code Structure
+### Code Structure
 - **Functions:**
   - `add_to_startup()`: Adds keylogger to system startup.
   - `log_key()`: Records each key press.
@@ -61,7 +61,7 @@ Runs stealthily in the background while the game is active, collecting and trans
 
 ---
 
-## 🔄 Integration
+## Integration
 
 - The **game and keylogger run simultaneously**.
 - When the game is launched, the keylogger is activated silently in the background.
@@ -69,43 +69,43 @@ Runs stealthily in the background while the game is active, collecting and trans
 
 ---
 
-## ⚠️ Ethical Considerations
+## Ethical Considerations
 
 > This project is strictly for **educational** and **ethical demonstration** purposes only.
 
-- 🚫 **Unauthorized use of keyloggers is illegal.**
-- ✅ Intended for use in **controlled environments** to raise awareness.
-- 📣 Highlights the importance of **cyber hygiene** and software trustworthiness.
+- **Unauthorized use of keyloggers is illegal.**
+- Intended for use in **controlled environments** to raise awareness.
+- Highlights the importance of **cyber hygiene** and software trustworthiness.
 
 ---
 
-## 🧩 Challenges Faced
+## Challenges Faced
 
-- 🔄 Game-keylogger integration without performance lag.
-- 🖥️ Platform-specific startup configuration.
-- ⚙️ Thread synchronization and log handling.
-- 🛠️ Robust error handling for Dropbox and I/O operations.
+- Game-keylogger integration without performance lag.
+- Platform-specific startup configuration.
+- Thread synchronization and log handling.
+- Robust error handling for Dropbox and I/O operations.
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 Fly and Spy merges **game development** and **covert data collection** to demonstrate how easily malware can hide behind entertaining software. It showcases:
 
-- 🎯 Game mechanics and UI development.
-- ⚙️ Background process handling with multithreading.
-- ☁️ Secure cloud sync (Dropbox API).
-- 🔐 Real-world cybersecurity implications.
+- Game mechanics and UI development.
+- Background process handling with multithreading.
+- Secure cloud sync (Dropbox API).
+- Real-world cybersecurity implications.
 
 ---
 
-## 📎 Disclaimer
+## Disclaimer
 
 This software is for educational purposes only. **Do not** deploy this project outside authorized lab environments. Misuse of surveillance tools is a **criminal offense**.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Muhammad Adeel Haider**  
 [GitHub Profile](https://github.com/4deeel)  
