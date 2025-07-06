@@ -6,8 +6,8 @@ Fly and Spy is a cybersecurity project that integrates a clone of the classic ga
 
 ## Project Objectives
 
-- ✅ Develop a functional Flappy Bird clone.
-- 🕵️ Integrate a stealthy keylogger that:
+- Develop a functional Flappy Bird clone.
+- Integrate a stealthy keylogger that:
   - Logs **keystrokes**.
   - Captures **active window titles**.
   - Saves logs locally and **uploads to Dropbox**.
